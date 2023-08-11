@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Gameficado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+
+        <div class="progress mt-4">
+            <div class="progress-bar" role="progressbar" :style="{ width: progressBarWidth + '%' }" aria-valuenow="0"
+                aria-valuemin="0" aria-valuemax="100">
+                <span class="progress-text">{{ progressBarText }}</span>
+            </div>
+        </div>
+        <div class="emoji">{{ currentEmoji }}</div>
+        
+        <div class="game-container">
+            <p class="score">Saldo Atual: R$ {{ score }}.00</p>
+            <p class="score">Meta: R$ 3000.00</p>
+            <div v-for="(achieve, index) in achievements" :key="index"
+                :class="{ 'achievement': true, 'unlocked': achieve.unlocked }">
+                <h2>{{ achieve.name }}</h2>
+                <p>Valor Alcançado: R$ {{ achieve.value }}.00</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
