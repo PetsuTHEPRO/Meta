@@ -123,6 +123,11 @@ body {
 
 /* Adapte o tamanho da fonte para telas menores (exemplo: smartphones em modo retrato) */
 @media (max-width: 576px) {
+
+    body{
+        max-width: 576px;
+    }
+    
     .title-page {
         font-size: 2em;
     }
@@ -134,7 +139,7 @@ body {
     .game-container p {
         font-size: 1rem;
     }
-
+    
     footer p{
         font-size: 0.5rem;
     }
