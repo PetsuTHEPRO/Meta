@@ -1,6 +1,7 @@
 # Projeto "Job Goal"
 
-Bem-vindo ao projeto "Job Tracker"! Este é um site simples desenvolvido para acompanhar todos os trabalhos de programação realizados e o dinheiro arrecadado durante o processo.
+Bem-vindo ao projeto "Job Goal"! Este é um site simples desenvolvido para acompanhar todos os trabalhos de programação realizados e o dinheiro arrecadado durante o processo com meta para
+montar um PC potente para programação.
 
 ## Tecnologias Utilizadas
 * HTML
@@ -17,6 +18,7 @@ Antes de começar, certifique-se de ter o Node.js instalado em seu sistema.
 Use os comandos:
 
 ```git clone https://github.com/seu-usuario/job-goal.git```
+
 ```cd job-goal```
 
 ## Instalando as Dependências
@@ -43,6 +45,9 @@ O aplicativo estará disponível em http://localhost:8080. Abra este link no seu
 Sinta-se à vontade para contribuir com melhorias! Basta criar um fork do repositório, fazer suas alterações e enviar um pull request.
 
 ## Licença
+
 Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
 ---
+
 Espero que aproveite o projeto! Se tiver alguma dúvida ou sugestão, não hesite em abrir uma issue ou entrar em contato.
