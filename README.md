@@ -11,7 +11,7 @@ montar um PC potente para programação.
 
 ## Pré-requisitos
 
-Antes de começar, certifique-se de ter o Node.js instalado em seu sistema.
+Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu sistema.
 
 ## Clonando o Repositório
 
@@ -41,6 +41,9 @@ O aplicativo estará disponível em http://localhost:8080. Abra este link no seu
 **scripts/:** Diretório que contém os scripts JavaScript.
 
 **components/:** Diretório que contém os componentes Vue.js.
+
+## Hospedagem no GitHub Pages
+Este projeto está hospedado no GitHub Pages. Você pode acessar o site diretamente [aqui]().
 
 ## Contribuindo
 

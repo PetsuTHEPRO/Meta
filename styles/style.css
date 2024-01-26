@@ -77,7 +77,6 @@ body {
 }
 
 .achievement {
-    background-color: #1a1a1a;
     border: 2px solid #777;
     border-radius: 10px;
     padding: 20px;
@@ -86,6 +85,58 @@ body {
     display: none;
 }
 
+.custom-achievement {
+    background-color: #1a1a1a;
+}
+
+.opposite-achievement {
+    background-color: #ff4d4d;
+}
+
 .unlocked {
     display: block;
+}
+
+/* Adapte o tamanho da fonte para telas menores (exemplo: smartphones em modo retrato) */
+@media (max-width: 576px) {
+    .title-page {
+        font-size: 2em;
+    }
+    .game-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .game-container p {
+        font-size: 1rem;
+    }
+}
+
+/* Adapte o tamanho da fonte para telas pequenas e médias (exemplo: tablets e monitores menores) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .title-page {
+        font-size: 2em;
+    }
+
+    .game-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .game-container p {
+        font-size: 1rem;
+    }
+}
+
+/* Adapte o tamanho da fonte para telas grandes e extra grandes (exemplo: monitores maiores) */
+@media (min-width: 993px) {
+    .title-page {
+        font-size: 3.5em;
+    }
+
+    .game-container h2 {
+        font-size: 2rem;
+    }
+
+    .game-container p {
+        font-size: 1.2rem;
+    }
 }
