@@ -134,6 +134,15 @@ body {
     .game-container p {
         font-size: 1rem;
     }
+
+    footer p{
+        font-size: 0.5rem;
+    }
+
+    footer #botaoGamer{
+        font-size: 0.6rem;
+        padding: 4px 25px;
+    }
 }
 
 /* Adapte o tamanho da fonte para telas pequenas e médias (exemplo: tablets e monitores menores) */
@@ -147,6 +156,10 @@ body {
     }
 
     .game-container p {
+        font-size: 1rem;
+    }
+
+    footer{
         font-size: 1rem;
     }
 }
@@ -163,5 +176,9 @@ body {
 
     .game-container p {
         font-size: 1.2rem;
+    }
+
+    footer{
+        font-size: 1rem;
     }
 }
