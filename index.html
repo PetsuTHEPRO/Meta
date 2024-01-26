@@ -12,7 +12,7 @@
 
 <body>
 
-    <div id="app" class="container">
+    <div id="app" class="container d-flex flex-column">
         
         <div class="title-page">
             Meta - Comprar PC GAMER
@@ -30,7 +30,7 @@
         </div>
         <div class="emoji">{{ currentEmoji }}</div>
         
-        <div class="game-container">
+        <div class="d-flex flex-column game-container ">
             <p class="score">Saldo Atual: R$ {{ score }}.00</p>
             <p class="score">Meta: R$ 3000.00</p>
             <div class="achievement" v-for="(achieve, index) in achievements" :key="index"

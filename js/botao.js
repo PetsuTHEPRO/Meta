@@ -14,12 +14,10 @@ function copiarTransrencia() {
     try {
         // Tenta executar o comando de cópia (método mais antigo)
         document.execCommand('copy');
-        alert('Agora é só ir no banco e colar! $$$');
     } catch (err) {
         // Se o comando execCommand não for suportado, tenta usar a API mais recente
         if (document.queryCommandSupported('copy')) {
             document.execCommand('copy');
-            alert('Agora é só ir no banco e colar! $$$');
         } else {
             console.error('A cópia para a área de transferência não é suportada neste navegador.');
         }
