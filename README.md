@@ -35,10 +35,12 @@ O aplicativo estará disponível em http://localhost:8080. Abra este link no seu
 
 ## Estrutura do Projeto
 **index.html:** Arquivo principal que contém a estrutura HTML.
+
 **styles/:** Diretório que contém os arquivos CSS para estilização.
+
 **scripts/:** Diretório que contém os scripts JavaScript.
+
 **components/:** Diretório que contém os componentes Vue.js.
-**data/:** Diretório para armazenar os dados do projeto.
 
 ## Contribuindo
 
