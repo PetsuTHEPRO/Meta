@@ -13,12 +13,12 @@ body {
     margin-bottom: 50px;
 }
 
-.title-page{
+.title-page {
     font-size: 3em;
     margin-bottom: 80px;
 }
 
-#app .emoji{
+#app .emoji {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,11 +97,36 @@ body {
     display: block;
 }
 
+#botaoGamer {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#botaoGamer:hover {
+    background-color: #45a049;
+}
+
+.icon-gamer {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
 /* Adapte o tamanho da fonte para telas menores (exemplo: smartphones em modo retrato) */
 @media (max-width: 576px) {
     .title-page {
         font-size: 2em;
     }
+
     .game-container h2 {
         font-size: 1.5rem;
     }
