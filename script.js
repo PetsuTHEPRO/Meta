@@ -8,8 +8,15 @@ new Vue({
       { name: 'Presente de Aniversário', value: 100, unlocked: true },
       { name: 'Trabalho da Faculdade', value: 100, unlocked: true },
       { name: 'Aposta de Dado', value: 4, unlocked: true },
-      { name: 'Criação de Bot', value: 50, unlocked: true }
-
+      { name: 'Criação de Bot', value: 50, unlocked: true },
+      { name: 'Trabalho Freelance - 4 Gráficos', value: 150, unlocked: true },
+      { name: 'Trabalho da Faculdade', value: 100, unlocked: true },
+      { name: 'Presente', value: 150, unlocked: true },
+      { name: 'Trabalho da Faculdade', value: 100, unlocked: true },
+      { name: 'Trabalho da Faculdade', value: 100, unlocked: true },
+      { name: 'Trabalho com Gráficos', value: 100, unlocked: true },
+      { name: 'Mesada', value: 20, unlocked: true },
+      { name: 'Rendimentos', value: 28, unlocked: true },
     ]
   }, created() {
     this.sumValuesToScore();
@@ -25,7 +32,8 @@ new Vue({
     },
     setProgressBarWidth(newValue) {
       this.progressBarWidth = newValue;
-    },calculateTimeLeft() {
+    },
+    calculateTimeLeft() {
       const targetDate = new Date();
       targetDate.setFullYear(targetDate.getFullYear() + 4);
       const currentDate = new Date();
